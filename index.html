@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Carta de Platos</title>
+		<link rel="stylesheet" href="/estilos/styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Header</h1>
+		</header>
+		<div class="container">
+			<div class="menu">
+				<div class="menu-menu">
+					<h3>Categorias</h3>
+					<ul>
+						<a href="#" id="pizzas"><li>Pizzas</li></a>
+						<a href="#" id="lasagnas"><li>Lasagnas</li></a>
+						<a href="#" id="spaguetis"><li>Spagguetis</li></a>
+						<a href="#" id="otros"><li>Otros gustos</li></a>
+						<a href="#" id="mexicano"><li>Mexicano</li></a>
+						<a href="#" id="hamburguesas"><li>Hamburguesas</li></a>
+						<a href="#" id="bebidas"><li>Bebidas</li></a>
+						<!-- Agrega más categorías según sea necesario -->
+					</ul>
+				</div>
+				<div class="no-menu"></div>
+			</div>
+			<div class="todos-los-platos">
+				<h2 id="titulo-platos" class="titulo-categoria"></h2>
+
+				<div class="platos" id="platos">
+					<!-- Aquí se mostrarán los platos según la categoría seleccionada -->
+				</div>
+			</div>
+		</div>
+		<dialog id="myModal">
+			<div class="modal-container">
+				<button class="close">x</button>
+				<div id="plato-modal-content"></div>
+			</div>
+		</dialog>
+		<footer>
+			<h3>footer</h3>
+		</footer>
+		<script src="/Scripts/datosPlatos.js"></script>
+		<script src="/Scripts/javascript.js"></script>
+	</body>
+</html>
