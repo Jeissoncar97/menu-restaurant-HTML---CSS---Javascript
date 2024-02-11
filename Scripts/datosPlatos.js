@@ -394,21 +394,21 @@ const platos = {
 	mexicano: [
 		{
 			nombre: "Quesadillas",
-			img: "/img/quesadilla.jpg",
+			img: "./img/quesadilla.jpg",
 			descripcion:
 				"Tortillas de trigo, rellena de carne y/o pollo y queso, acompañado de guacamole y pico de gallo",
 			precio: "<strong>$</strong>16.000",
 		},
 		{
 			nombre: "Burrito",
-			img: "/img/quesadilla.jpg",
+			img: "./img/quesadilla.jpg",
 			descripcion:
 				"Tortillas de trigo, rellena de carne y/o pollo, maíz tierno, queso y lechuga, acompañado de guacamole y tostacos",
 			precio: "<strong>$</strong>18.000",
 		},
 		{
 			nombre: "Burrito vegetariano",
-			img: "/img/quesadilla.jpg",
+			img: "./img/quesadilla.jpg",
 			descripcion:
 				"Tortillas de trigo, rellena de zuquini, champiñones, maíz tierno, queso y lechuga, acompañado de guacamole y tostacos",
 			precio: "<strong>$</strong>16.000",
@@ -417,48 +417,48 @@ const platos = {
 	hamburguesas: [
 		{
 			nombre: "Sencilla",
-			img: "/img/hamburguesa.jpg",
+			img: "./img/hamburguesa.jpg",
 			descripcion: "Carne, lechuga, tomate, cebolla y queso",
 			precio: "<strong>$</strong>9.000",
 		},
 		{
 			nombre: "Fox ranchera",
-			img: "/img/hamburguesa.jpg",
+			img: "./img/hamburguesa.jpg",
 			descripcion:
 				"Carne, tocineta, maíz tierno, lechuga, tomate, cebolla y queso, acompañada de papas a la francesa",
 			precio: "<strong>$</strong>16.900",
 		},
 		{
 			nombre: "Fox champiñón",
-			img: "/img/hamburguesa.jpg",
+			img: "./img/hamburguesa.jpg",
 			descripcion:
 				"Carne, champiñones, lechuga, tomate, cebolla y queso, acompañada de papas a la francesa",
 			precio: "<strong>$</strong>16.000",
 		},
 		{
 			nombre: "Fox miel mostaza",
-			img: "/img/hamburguesa.jpg",
+			img: "./img/hamburguesa.jpg",
 			descripcion:
 				"Carne, pollo en salsa miel mostaza, lechuga, tomate, cebolla y queso, acompañada de papas a la francesa",
 			precio: "<strong>$</strong>17.000",
 		},
 		{
 			nombre: "Fox del huerto",
-			img: "/img/hamburguesa.jpg",
+			img: "./img/hamburguesa.jpg",
 			descripcion:
 				"Carne, pollo, jaón, champiñones, salsa cesar, lechuga, tomate, cebolla y queso, acompañada de papas a la francesa",
 			precio: "<strong>$</strong>17.500",
 		},
 		{
 			nombre: "Combo sencilla",
-			img: "/img/hamburguesa.jpg",
+			img: "./img/hamburguesa.jpg",
 			descripcion:
 				"Hamburguesa sencilla acompañada de papas a la francesa y gaseosa 250ml",
 			precio: "<strong>$</strong>14.000",
 		},
 		{
 			nombre: "Combo especial",
-			img: "/img/hamburguesa.jpg",
+			img: "./img/hamburguesa.jpg",
 			descripcion:
 				"Hamburguesa sencilla con doble carne y doble queso, acompañada de papas a la francesa y gaseosa 250ml",
 			precio: "<strong>$</strong>17.000",
@@ -468,88 +468,88 @@ const platos = {
 		//naturales
 		{
 			nombre: "Jugos en agua (variedad)",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>4.500",
 		},
 		{
 			nombre: "Jugos en leche (variedad)",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>5.000",
 		},
 		{
 			nombre: "Limonada natural",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>4.000",
 		},
 		{
 			nombre: "Limonada cerezada",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>4.500",
 		},
 		{
 			nombre: "Limonada de hierbabuena",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>4.500",
 		},
 		{
 			nombre: "Limonada de coco",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>5.000",
 		},
 		// gaseosas y cervezas
 		{
 			nombre: "Agua sin gas",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>2.500",
 		},
 		{
 			nombre: "Agua con gas",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>3.000",
 		},
 		{
 			nombre: "Club colombia (dorada - roja)",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>5.000",
 		},
 		{
 			nombre: "Poker",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>4.000",
 		},
 		{
 			nombre: "Coronita",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>5.000",
 		},
 		{
 			nombre: "Corona",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>6.000",
 		},
 		{
 			nombre: "Gaseosa 1.5 (Productos coca cola)",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>7.500",
 		},
 		{
 			nombre: "Gaseosa 1.5 (Productos postobón)",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>6.500",
 		},
 		{
 			nombre: "Gaseosa 400",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>3.500",
 		},
 		{
 			nombre: "Gaseosa 350",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>3.000",
 		},
 		{
 			nombre: "Gaseosa 250",
-			img: "/img/jugos.jpg",
+			img: "./img/jugos.jpg",
 			precio: "<strong>$</strong>2.000",
 		},
 	],
